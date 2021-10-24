@@ -1,0 +1,75 @@
+body {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  z-index: -2;
+}
+
+nav {
+  padding-right: 60px;
+}
+
+nav,
+nav .nav-link {
+  color: white;
+  text-transform: uppercase;
+}
+
+nav .active {
+  color: #8e68a5;
+}
+
+nav .nav-link:hover {
+  color: #8e68a5;
+}
+
+nav h5 {
+  font-size: 1.3em;
+}
+
+.bg-img {
+  position: absolute;
+  left: 0;
+  top: 20px;
+  width: 35%;
+  z-index: -1;
+}
+
+.main .text {
+  padding-left: 100px;
+}
+
+.main .text span {
+  color: #8e68a5;
+  font-weight: 500;
+}
+
+.main .text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1em;
+}
+
+.main .text button {
+  background-color: #8e68a5;
+  text-transform: uppercase;
+  color: white;
+}
+
+.main .text button:hover {
+  background-color: #212529;
+}
+
+/* Responsive Breakpoint */
+
+@media (max-width: 768px) {
+  .bg-img {
+    width: 70%;
+    opacity: 0.4;
+  }
+
+  .main .text span {
+    color: #c298db;
+  }
+}
