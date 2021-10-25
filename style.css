@@ -3,10 +3,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.card {
-  z-index: -2;
-}
-
 nav {
   padding-right: 60px;
 }
